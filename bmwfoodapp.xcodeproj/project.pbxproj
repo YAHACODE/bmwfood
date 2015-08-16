@@ -13,6 +13,9 @@
 		0831535C1B80ADA5007EB627 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0831535B1B80ADA5007EB627 /* Images.xcassets */; };
 		0831535F1B80ADA5007EB627 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0831535D1B80ADA5007EB627 /* LaunchScreen.xib */; };
 		0831536B1B80ADA5007EB627 /* bmwfoodappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0831536A1B80ADA5007EB627 /* bmwfoodappTests.swift */; };
+		083153771B80B536007EB627 /* RestaurantOverviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083153761B80B536007EB627 /* RestaurantOverviewViewController.swift */; };
+		083153791B80B56E007EB627 /* RestaurantHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083153781B80B56E007EB627 /* RestaurantHistoryViewController.swift */; };
+		0831537B1B80B5AB007EB627 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0831537A1B80B5AB007EB627 /* InfoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		083153641B80ADA5007EB627 /* bmwfoodappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bmwfoodappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		083153691B80ADA5007EB627 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0831536A1B80ADA5007EB627 /* bmwfoodappTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bmwfoodappTests.swift; sourceTree = "<group>"; };
+		083153761B80B536007EB627 /* RestaurantOverviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantOverviewViewController.swift; sourceTree = "<group>"; };
+		083153781B80B56E007EB627 /* RestaurantHistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantHistoryViewController.swift; sourceTree = "<group>"; };
+		0831537A1B80B5AB007EB627 /* InfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +86,9 @@
 				083153541B80ADA5007EB627 /* AppDelegate.swift */,
 				083153561B80ADA5007EB627 /* ViewController.swift */,
 				083153581B80ADA5007EB627 /* Main.storyboard */,
+				0831537A1B80B5AB007EB627 /* InfoViewController.swift */,
+				083153781B80B56E007EB627 /* RestaurantHistoryViewController.swift */,
+				083153761B80B536007EB627 /* RestaurantOverviewViewController.swift */,
 				0831535B1B80ADA5007EB627 /* Images.xcassets */,
 				0831535D1B80ADA5007EB627 /* LaunchScreen.xib */,
 				083153521B80ADA5007EB627 /* Supporting Files */,
@@ -212,8 +221,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				083153771B80B536007EB627 /* RestaurantOverviewViewController.swift in Sources */,
 				083153571B80ADA5007EB627 /* ViewController.swift in Sources */,
+				083153791B80B56E007EB627 /* RestaurantHistoryViewController.swift in Sources */,
 				083153551B80ADA5007EB627 /* AppDelegate.swift in Sources */,
+				0831537B1B80B5AB007EB627 /* InfoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
