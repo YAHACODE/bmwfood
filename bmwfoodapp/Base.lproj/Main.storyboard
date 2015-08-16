@@ -640,10 +640,84 @@
                         <viewControllerLayoutGuide type="top" id="6iA-bb-CUd"/>
                         <viewControllerLayoutGuide type="bottom" id="PWY-99-Jky"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="14v-SK-iHd">
+                    <view key="view" contentMode="scaleToFill" id="k49-e6-e2T" userLabel="Root View">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" indicatorStyle="black" dataMode="prototypes" style="plain" rowHeight="104" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="zEB-VA-fis">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="separatorColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="sectionIndexColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="sectionIndexBackgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="sectionIndexTrackingBackgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="RestaurantCell" rowHeight="104" id="4Uw-Fi-bFT" customClass="RestaurantTableViewCell" customModule="Dishcover" customModuleProvider="target">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="4Uw-Fi-bFT" id="uXf-u3-8Rp">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Wsh-EC-pzm" userLabel="Restaurant Label">
+                                                    <rect key="frame" x="16" y="12" width="568" height="36"/>
+                                                    <fontDescription key="fontDescription" type="system" weight="thin" pointSize="24"/>
+                                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CAX-OU-3AI" userLabel="Country">
+                                                    <rect key="frame" x="16" y="56" width="44" height="21"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="21" id="lFR-gq-ugc"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                                                    <color key="textColor" red="0.1120290092" green="0.79222092239999997" blue="0.3328067945" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gc1-jY-g8q" userLabel="Date">
+                                                    <rect key="frame" x="542" y="56" width="42" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" weight="thin" pointSize="17"/>
+                                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <constraints>
+                                                <constraint firstAttribute="trailingMargin" secondItem="Wsh-EC-pzm" secondAttribute="trailing" constant="8" id="9uX-bf-D3W"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="Gc1-jY-g8q" secondAttribute="trailing" constant="8" id="AHp-IJ-V4E"/>
+                                                <constraint firstItem="CAX-OU-3AI" firstAttribute="top" secondItem="Wsh-EC-pzm" secondAttribute="bottom" constant="8" id="BcJ-Ex-eUD"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="CAX-OU-3AI" secondAttribute="bottom" constant="18.5" id="FSB-ar-V6i"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="Wsh-EC-pzm" secondAttribute="trailing" id="WaU-9r-l12"/>
+                                                <constraint firstItem="CAX-OU-3AI" firstAttribute="leading" secondItem="Wsh-EC-pzm" secondAttribute="leading" id="YHQ-it-Tkk"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="Gc1-jY-g8q" secondAttribute="bottom" constant="18.5" id="aRX-QS-tl0"/>
+                                                <constraint firstItem="Wsh-EC-pzm" firstAttribute="leading" secondItem="uXf-u3-8Rp" secondAttribute="leadingMargin" constant="8" id="cGa-y0-46S"/>
+                                                <constraint firstAttribute="trailing" secondItem="Wsh-EC-pzm" secondAttribute="trailing" id="ez8-ei-yff"/>
+                                                <constraint firstItem="Wsh-EC-pzm" firstAttribute="top" secondItem="uXf-u3-8Rp" secondAttribute="topMargin" constant="4" id="iIu-Gi-Fnk"/>
+                                            </constraints>
+                                            <variation key="default">
+                                                <mask key="constraints">
+                                                    <exclude reference="WaU-9r-l12"/>
+                                                    <exclude reference="ez8-ei-yff"/>
+                                                </mask>
+                                            </variation>
+                                        </tableViewCellContentView>
+                                        <color key="tintColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <outlet property="dateLabel" destination="Gc1-jY-g8q" id="nrj-r2-hiX"/>
+                                            <outlet property="eatenCountryLabel" destination="CAX-OU-3AI" id="o69-bD-reF"/>
+                                            <outlet property="eatenRestaurantLabel" destination="Wsh-EC-pzm" id="AMS-kV-xku"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="zEB-VA-fis" firstAttribute="top" secondItem="k49-e6-e2T" secondAttribute="topMargin" id="AI9-Oz-jK3"/>
+                            <constraint firstItem="zEB-VA-fis" firstAttribute="leading" secondItem="k49-e6-e2T" secondAttribute="leading" id="Tmi-PM-moS"/>
+                            <constraint firstAttribute="trailing" secondItem="zEB-VA-fis" secondAttribute="trailing" id="hdj-40-ebM"/>
+                            <constraint firstAttribute="bottom" secondItem="zEB-VA-fis" secondAttribute="bottom" id="rgb-el-m8b"/>
+                        </constraints>
                     </view>
                     <connections>
                         <segue destination="q0C-5H-tbp" kind="show" identifier="fromHistorytoInfo" id="IC5-oF-JLS"/>
