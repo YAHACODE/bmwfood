@@ -17,6 +17,10 @@
 		083153791B80B56E007EB627 /* RestaurantHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083153781B80B56E007EB627 /* RestaurantHistoryViewController.swift */; };
 		0831537B1B80B5AB007EB627 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0831537A1B80B5AB007EB627 /* InfoViewController.swift */; };
 		0831537D1B80BF61007EB627 /* RestaurantTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0831537C1B80BF61007EB627 /* RestaurantTableViewCell.swift */; };
+		0831537F1B80BFA7007EB627 /* slice.py in Resources */ = {isa = PBXBuildFile; fileRef = 0831537E1B80BFA7007EB627 /* slice.py */; };
+		083153811B80BFEB007EB627 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083153801B80BFEB007EB627 /* Restaurant.swift */; };
+		083153831B80C00C007EB627 /* PhotoID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083153821B80C00C007EB627 /* PhotoID.swift */; };
+		083153851B80C032007EB627 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083153841B80C032007EB627 /* Network.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		083153781B80B56E007EB627 /* RestaurantHistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantHistoryViewController.swift; sourceTree = "<group>"; };
 		0831537A1B80B5AB007EB627 /* InfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
 		0831537C1B80BF61007EB627 /* RestaurantTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantTableViewCell.swift; sourceTree = "<group>"; };
+		0831537E1B80BFA7007EB627 /* slice.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = slice.py; sourceTree = "<group>"; };
+		083153801B80BFEB007EB627 /* Restaurant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
+		083153821B80C00C007EB627 /* PhotoID.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoID.swift; sourceTree = "<group>"; };
+		083153841B80C032007EB627 /* Network.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +100,10 @@
 				083153781B80B56E007EB627 /* RestaurantHistoryViewController.swift */,
 				083153761B80B536007EB627 /* RestaurantOverviewViewController.swift */,
 				0831537C1B80BF61007EB627 /* RestaurantTableViewCell.swift */,
+				0831537E1B80BFA7007EB627 /* slice.py */,
+				083153801B80BFEB007EB627 /* Restaurant.swift */,
+				083153821B80C00C007EB627 /* PhotoID.swift */,
+				083153841B80C032007EB627 /* Network.swift */,
 				0831535B1B80ADA5007EB627 /* Images.xcassets */,
 				0831535D1B80ADA5007EB627 /* LaunchScreen.xib */,
 				083153521B80ADA5007EB627 /* Supporting Files */,
@@ -204,6 +216,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0831537F1B80BFA7007EB627 /* slice.py in Resources */,
 				0831535A1B80ADA5007EB627 /* Main.storyboard in Resources */,
 				0831535F1B80ADA5007EB627 /* LaunchScreen.xib in Resources */,
 				0831535C1B80ADA5007EB627 /* Images.xcassets in Resources */,
@@ -227,9 +240,12 @@
 				083153771B80B536007EB627 /* RestaurantOverviewViewController.swift in Sources */,
 				083153571B80ADA5007EB627 /* ViewController.swift in Sources */,
 				083153791B80B56E007EB627 /* RestaurantHistoryViewController.swift in Sources */,
+				083153811B80BFEB007EB627 /* Restaurant.swift in Sources */,
 				083153551B80ADA5007EB627 /* AppDelegate.swift in Sources */,
+				083153851B80C032007EB627 /* Network.swift in Sources */,
 				0831537D1B80BF61007EB627 /* RestaurantTableViewCell.swift in Sources */,
 				0831537B1B80B5AB007EB627 /* InfoViewController.swift in Sources */,
+				083153831B80C00C007EB627 /* PhotoID.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
