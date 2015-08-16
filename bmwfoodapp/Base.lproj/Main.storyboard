@@ -653,6 +653,11 @@
                             </mask>
                         </variation>
                     </view>
+                    <connections>
+                        <segue destination="q0C-5H-tbp" kind="show" identifier="firstRestaurant" id="AnU-ub-1hq"/>
+                        <segue destination="q0C-5H-tbp" kind="show" identifier="secondRestaurant" id="QUS-Ge-9Cc"/>
+                        <segue destination="q0C-5H-tbp" kind="show" identifier="thirdRestaurant" id="e9s-xm-CCl"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xMh-1a-rgb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -880,7 +885,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZaV-Xn-oax" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1448" y="394"/>
+            <point key="canvasLocation" x="1752" y="358"/>
         </scene>
         <!--Restaurant History View Controller-->
         <scene sceneID="ACm-dq-YI2">
@@ -986,4 +991,7 @@
         <image name="walking" width="72" height="68"/>
         <image name="world_map" width="72" height="68"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="e9s-xm-CCl"/>
+    </inferredMetricsTieBreakers>
 </document>
